@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.estilos-nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.5rem;
+    border-bottom: 3px solid rgb(163, 51, 214);
+}
+
+header nav img{
+    width: 200px;
+    height: 100px;
+}
+
+.art-basic{
+    display: flex;
+    justify-content: center;
+}
+
+.image-basic{
+    width: 100px;
+    height: 80px;
+}
