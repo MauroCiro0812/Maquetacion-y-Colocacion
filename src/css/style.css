@@ -1,6 +1,12 @@
+/* se importa para el uso de icon de boostrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* se cambia de forma general y se cambia el tipo de letra */
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif; 
 }
 
 .estilos-nav{
@@ -8,7 +14,11 @@
     justify-content: left;
     align-items: center;
     font-size: 1.5rem;
+    background-color: white;
+    width: 100%;
     border-bottom: 3px solid rgb(163, 51, 214);
+    position: fixed;
+    top: 0;
 }
 
 header nav img{
@@ -16,12 +26,90 @@ header nav img{
     height: 100px;
 }
 
-.art-basic{
+.posicion{
+    position: sticky;
+    margin-left: 17px ;
+    top: 105px;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.sec{
     display: flex;
     justify-content: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    /* height: 100vh;
+    width: 100vw; */
+    padding-top: 150px;
+    gap: 40px;
+    background-color: rgb(252, 249, 249);
 }
 
-.image-basic{
+.figu{
+    display: flex;
+    text-align: center;
+}
+
+
+.art{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    
+}
+
+.image{
     width: 100px;
     height: 80px;
+}
+
+
+.posicion-avanzada{
+    position: sticky;
+    margin-left: 17px;
+    top: 18%;
+    z-index:2;
+    background-color: white;
+    width: 100%;
+}
+
+.chat{
+    background-color: rgb(37, 209, 37);
+    height: 1.5rem;
+    width: 80px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 88%;
+    left: 93%;
+    z-index: 4;
+}
+
+.chat a{
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+}
+
+.foot{
+    display: flex;
+    margin-top: 40px;
+}
+
+.foot p{
+   margin-right: auto;
+   margin-left: 40px;
+}
+
+.foot span{
+    color: blue;
+}
+
+.foot a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(94, 93, 93);
 }
